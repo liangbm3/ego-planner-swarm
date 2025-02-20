@@ -1,3 +1,5 @@
 <launch>
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ego_planner)/launch/default.rviz" required="true" />
 </launch>
+
+<!-- name指定节点名称，pkg指定节点所属ros包，type指定要运行的可执行文件，-d是rviz的一个参数，用来指定rviz的配置文件 -->
